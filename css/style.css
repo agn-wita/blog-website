@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;}
+
+body {
+    margin: 0;
+}
+
+.img {
+    width: 100%;
+}
+
+/* ================== home page small screen ================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 550px) minmax(1em, 1fr);
+}
+
+.post-main > * {
+    grid-column: 2/-2;
+}
+
+.post-sec > * {
+    grid-column: 2/-2;
+}
+
+.about-post > * {
+    grid-column: 2/-2;
+}
+
+.recent-post-box > * {
+    grid-column: 2/-2;
+}
+
+.footer > * {
+    grid-column: 2/-2;
+}
+
+
